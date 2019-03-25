@@ -3,7 +3,7 @@
 //  CPres
 //
 //  Created by Antonio Carranza on 3/1/18.
-//  Copyright © 2018 Antonio Carranza. All rights reserved.
+//  Copyright (c) 2018 Antonio Carranza. All rights reserved.
 //
 
 import UIKit
@@ -16,7 +16,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
-        let a = 1
         return true
     }
     
