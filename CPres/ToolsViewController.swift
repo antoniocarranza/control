@@ -61,14 +61,14 @@ class ToolsViewController: UIViewController, NSFetchedResultsControllerDelegate 
         present(vc, animated: true, completion: nil)
         
         vc.excludedActivityTypes = [
-            UIActivityType.assignToContact,
-            UIActivityType.saveToCameraRoll,
-            UIActivityType.postToFlickr,
-            UIActivityType.postToVimeo,
-            UIActivityType.postToTencentWeibo,
-            UIActivityType.postToTwitter,
-            UIActivityType.postToFacebook,
-            UIActivityType.openInIBooks]
+            UIActivity.ActivityType.assignToContact,
+            UIActivity.ActivityType.saveToCameraRoll,
+            UIActivity.ActivityType.postToFlickr,
+            UIActivity.ActivityType.postToVimeo,
+            UIActivity.ActivityType.postToTencentWeibo,
+            UIActivity.ActivityType.postToTwitter,
+            UIActivity.ActivityType.postToFacebook,
+            UIActivity.ActivityType.openInIBooks]
         
     }
     
